@@ -204,6 +204,25 @@ function StartupForm() {
       });
 
       if (response.status === 200) {
+        setFormData({
+          startupName: '',
+          founderName: '',
+          mobileNumber: '',
+          alternateNumber: '',
+          email: '',
+          location: '',
+          state: '',
+          pinCode: '',
+          businessIdea: '',
+          businessModelFile: '',
+          whyJoinUs: '',
+          registered: '',
+          development: '',
+          successful: '',
+          linkedinProfile: '',
+          ietDavvRights: '',
+          sharewithmentor:'',
+        });
         console.log('Email sent successfully');
         // You can add further logic or redirection after successful email sending.
       } else {
